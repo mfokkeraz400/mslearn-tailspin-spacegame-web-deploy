@@ -1,10 +1,8 @@
 trigger:
 - '*'
 
-pool: Linux
-  #vmImage: 'ubuntu-20.04'
-  #demands:
- #- npm
+pool: az400m05l05a-pool
+
 
 variables:
   buildConfiguration: 'Release'
