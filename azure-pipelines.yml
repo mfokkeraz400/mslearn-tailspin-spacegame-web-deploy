@@ -1,7 +1,10 @@
 trigger:
 - '*'
 
-pool: az400m05l05a-pool
+pool: 
+     vmImage: 'ubuntu-20.04'
+      demands:
+      - npm
 
 
 variables:
